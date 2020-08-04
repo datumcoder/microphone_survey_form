@@ -3,14 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Project</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
 </head>
 <body>
 
-    <h1 class= container id="title">What is your favourite USB microphone in 2020?</h1>
+      
+    <h1 id="title">Survey Project</h1>
+    <p id="description">What is your favourite USB microphone in 2020?</p>
 
-    <form action="/action_page.php">
-        </p>Please select your favourite microphone:</p>
+    <form with id="survey-form">
+
+    <label for="name-label" id="name-label">First name:</label><br>
+        <input type="text" id="name" name="name" placeholder="name" required><br>
+        <label for="surname-label" id="email-label">Last name:</label><br>
+        <input type="surname" id="surname" placeholder="surname" required><br>
+        <label for="email-label" id="email-label">Email:</label> <br>
+        <input type="email" id="email" placeholder="email" required><br>
+        <br>
+        <label for="number-label" id="number-label">number:</label>
+        <input type="number" id="number"placeholder="number" required min="0" max="10"><br> 
+        <br>
+        
+
+        <p>Please select your favourite brand of microphone:</p>
+
+        <select id="dropdown" name="microphones">
+        <option value="Audio-Technica">Audio-Technica</option>
+        <option value="rode NT-USB">Rode NT-USB</option>
+        <option value="blue yeti">Blue Yeti</option>
+        <option value="samson Q2U">Samson Q2U</option>
+        <option value=G-Track_Pro>G-Track Pro</option>
+        <option value="rode_NT_mini">Rode NT mini</option>
+    </select>
+        <br>
+       
+        <br>
+        <h4>Which is your favourite model of microphone?</h4>
         <input type="radio" id="audio-technica" name="microphone" value="audio-technica">
         <label for="audio-technica">Audio-Technica AT2020USB+</label><br>
         <input type="radio" id="rode_NT-USB" name="microphone" value="Rode_NT-USB">
@@ -19,26 +48,34 @@
         <label for="blue yeti">Blue Yeti USB</label>
         <br>
        
-        <br>
-        <input type="radio" id="samson_Q2U" name="microphone" value="samson_Q2U">
-        <label for="blue yeti">Samson Q2U</label> <br>
-        <input type="radio" id="G-Track_Pro" name="microphone" value="G-Track_Pro">
-        <label for="G-Track_Pro">G-Track Pro</label><br>
-        <input type="radio" id="rode_NT_mini" name="microphone" value="rode_NT_mini">
-        <label for="rode_NT_mini">rode_NT_mini</label>
-        <br>
-        <br>
-        <!-- details of  -->
-        <label for="fname">First name:</label><br>
-        <input type="text" id="name" name="name" value=""><br>
-        <label for="lname">Last name:</label>
-        <br>
-        <input type="text" id="name" name="name" value=""><br>
-        <label for="email">Email:</label><br>
+        
 
-        <input type="email"id="email"name="email"><br>
-        <br>
+        <h4>Which of these microphones suit you best?</h4>
+        <input type="checkbox" id="" name="dynamic_mics" value="dynamic_mics">
+        <label for="dynamic_mics">Dynamic Mics</label><br>
+        <input type="checkbox" id="condenser_mics" name="condenser mics" value="condenser_mics">
+        <label for="vehicle2">Condenser Mics</label><br>
+        <input type="checkbox" id="ribbon_mics" name="ribbon_mics" value="ribbon_mics">
+        <label for="vehicle3">Ribbon Mics</label><br>
 
-        <input type="submit" value="Submit">
+        <br>
+       
+        
+
+        <textarea name="message" rows="10" cols="30"placeholder="Write your comments here:" ></textarea> <br>
+
+        <input type="submit" id="submit">
+    </form>
+
+
     
+    
+
+        
+    
+
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+        <Br>
 </body>
+</html>

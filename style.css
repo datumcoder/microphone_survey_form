@@ -1,0 +1,52 @@
+body {
+width: 100vw;
+  height: 100vh;
+  background: #2C3E50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #d3db59 , #e47b04); 
+  background: linear-gradient(to left, #2C3E50 , #ee8915); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+#survey-form{
+    background-color: rgb(26, 38, 94);
+}
+#title {
+
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 50px;
+  background: #2C3E50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C3E50 , #FD746C); 
+  background: linear-gradient(to left, #2C3E50 , #fd9104); 
+}
+
+#description{
+
+text-align: center;
+color: rgb(250, 248, 248);
+  background: #2C3E50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C3E50 , #f5bc02); 
+  background: linear-gradient(to right, #2C3E50 , #f7b603); 
+margin: 0px 350px 0px 350px ; 
+padding-top: 50px;
+font-size: 20px;
+}
+#survey-form {
+color: rgb(250, 248, 248);
+
+text-align: center;
+margin: 0px 350px 0px 350px ; 
+padding-top: 50px;
+  background: #2C3E50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C3E50 , #f9fd03);
+  background: linear-gradient(to left, #2C3E50 , #fdad01); 
+}
+
+
+
+#submit {
+
+margin:  40px;
+}
